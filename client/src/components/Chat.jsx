@@ -4,7 +4,8 @@ import io from "socket.io-client";
 import Message from "./Message";
 import Navbar from "./Navbar";
 import ScrollableFeed from "react-scrollable-feed";
-const socket = io("http://localhost:4000");
+//const socket = io("http://localhost:4000");
+const socket = io("/");
 var name = "";
 
 const Chat = () => {
